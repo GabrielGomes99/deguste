@@ -1,0 +1,330 @@
+[
+  {
+    "id": 1,
+    "title": "Preparo de Caipiroskas na Estação de Frutas",
+    "category": "drinks",
+    "badge": "Bar & Drinks",
+    "file": "assets/videos/video-01-preparo-caipiroska-frutas.mp4",
+    "thumb": "assets/videos/thumbs/thumb-01-preparo-caipiroska-frutas.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Bartender em Ação — Coquetelaria para Eventos",
+    "category": "drinks",
+    "badge": "Bar & Drinks",
+    "file": "assets/videos/video-02-bartender-coquetelaria.mp4",
+    "thumb": "assets/videos/thumbs/thumb-02-bartender-coquetelaria.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Montagem de Coquetéis Artesanais",
+    "category": "drinks",
+    "badge": "Bar & Drinks",
+    "file": "assets/videos/video-03-montagem-coqueteis-artesanais.mp4",
+    "thumb": "assets/videos/thumbs/thumb-03-montagem-coqueteis-artesanais.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Buffet de Recepção e Mesa Gastronômica",
+    "category": "mesas",
+    "badge": "Mesa de Boas-Vindas",
+    "file": "assets/videos/video-04-buffet-recepcao-gastronomica.mp4",
+    "thumb": "assets/videos/thumbs/thumb-04-buffet-recepcao-gastronomica.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Mesa de Pães Artesanais, Queijos e Charcutaria",
+    "category": "mesas",
+    "badge": "Mesa de Boas-Vindas",
+    "file": "assets/videos/video-05-mesa-paes-queijos-charcutaria.mp4",
+    "thumb": "assets/videos/thumbs/thumb-05-mesa-paes-queijos-charcutaria.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Mesa de Frios e Antepastos Selecionados",
+    "category": "mesas",
+    "badge": "Gastronomia",
+    "file": "assets/videos/video-06-mesa-frios-antepastos.mp4",
+    "thumb": "assets/videos/thumbs/thumb-06-mesa-frios-antepastos.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Buffet Gourmet para Eventos",
+    "category": "mesas",
+    "badge": "Gastronomia",
+    "file": "assets/videos/video-07-buffet-gourmet-eventos.mp4",
+    "thumb": "assets/videos/thumbs/thumb-07-buffet-gourmet-eventos.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Detalhes da Recepção Gastronômica",
+    "category": "mesas",
+    "badge": "Gastronomia",
+    "file": "assets/videos/video-08-detalhes-recepcao-gastronomica.mp4",
+    "thumb": "assets/videos/thumbs/thumb-08-detalhes-recepcao-gastronomica.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Pista de Dança com Barca de Shots Iluminada",
+    "category": "casamentos",
+    "badge": "Casamentos",
+    "file": "assets/videos/video-09-pista-danca-barca-shots.mp4",
+    "thumb": "assets/videos/thumbs/thumb-09-pista-danca-barca-shots.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Brinde dos Noivos na Pista de Dança",
+    "category": "casamentos",
+    "badge": "Casamentos",
+    "file": "assets/videos/video-10-brinde-noivos-pista-danca.mp4",
+    "thumb": "assets/videos/thumbs/thumb-10-brinde-noivos-pista-danca.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Entrada da Barca de Shots com Noivos e Padrinhos",
+    "category": "casamentos",
+    "badge": "Casamentos",
+    "file": "assets/videos/video-11-noivos-barca-shots-balada.mp4",
+    "thumb": "assets/videos/thumbs/thumb-11-noivos-barca-shots-balada.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Favo de Mel e Frutas Frescas ao Ar Livre",
+    "category": "mesas",
+    "badge": "Experiência Única",
+    "file": "assets/videos/video-12-favo-mel-frutas-ar-livre.mp4",
+    "thumb": "assets/videos/thumbs/thumb-12-favo-mel-frutas-ar-livre.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Mesa de Frutas e Drinks com Favo Natural",
+    "category": "mesas",
+    "badge": "Experiência Única",
+    "file": "assets/videos/video-13-mesa-frutas-favo-natural.mp4",
+    "thumb": "assets/videos/thumbs/thumb-13-mesa-frutas-favo-natural.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Experiência do Favo de Mel ao Vivo",
+    "category": "mesas",
+    "badge": "Destaque",
+    "file": "assets/videos/video-14-experiencia-favo-mel-ao-vivo.mp4",
+    "thumb": "assets/videos/thumbs/thumb-14-experiencia-favo-mel-ao-vivo.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Coquetéis e Frutas na Recepção Externa",
+    "category": "drinks",
+    "badge": "Bar & Drinks",
+    "file": "assets/videos/video-15-coqueteis-recepcao-externa.mp4",
+    "thumb": "assets/videos/thumbs/thumb-15-coqueteis-recepcao-externa.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Bancada de Frutas Frescas para Caipiroskas",
+    "category": "drinks",
+    "badge": "Bar & Drinks",
+    "file": "assets/videos/video-16-bancada-frutas-caipiroskas.mp4",
+    "thumb": "assets/videos/thumbs/thumb-16-bancada-frutas-caipiroskas.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Barca de Coco Gelado no Jardim",
+    "category": "barca",
+    "badge": "Barca de Coco",
+    "file": "assets/videos/video-17-barca-coco-gelado-jardim.mp4",
+    "thumb": "assets/videos/thumbs/thumb-17-barca-coco-gelado-jardim.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Ingredientes Frescos da Estação de Crepes",
+    "category": "crepe",
+    "badge": "Monte seu Crepe",
+    "file": "assets/videos/video-18-crepe-ingredientes-frescos.mp4",
+    "thumb": "assets/videos/thumbs/thumb-18-crepe-ingredientes-frescos.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Frutas e Recheios para Crepe Artesanal",
+    "category": "crepe",
+    "badge": "Monte seu Crepe",
+    "file": "assets/videos/video-19-crepe-frutas-recheios.mp4",
+    "thumb": "assets/videos/thumbs/thumb-19-crepe-frutas-recheios.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Morangos e Doces para Crepes Personalizados",
+    "category": "crepe",
+    "badge": "Monte seu Crepe",
+    "file": "assets/videos/video-20-crepe-morangos-doces.mp4",
+    "thumb": "assets/videos/thumbs/thumb-20-crepe-morangos-doces.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Queijos e Recheios Especiais para Crepe",
+    "category": "crepe",
+    "badge": "Monte seu Crepe",
+    "file": "assets/videos/video-21-crepe-queijos-salgados.mp4",
+    "thumb": "assets/videos/thumbs/thumb-21-crepe-queijos-salgados.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Variedade de Ingredientes para Crepes",
+    "category": "crepe",
+    "badge": "Monte seu Crepe",
+    "file": "assets/videos/video-22-crepe-variedade-ingredientes.mp4",
+    "thumb": "assets/videos/thumbs/thumb-22-crepe-variedade-ingredientes.jpg"
+  },
+  {
+    "id": 23,
+    "title": "Bancada Completa de Crepes Doces e Salgados",
+    "category": "crepe",
+    "badge": "Monte seu Crepe",
+    "file": "assets/videos/video-23-crepe-bancada-completa.mp4",
+    "thumb": "assets/videos/thumbs/thumb-23-crepe-bancada-completa.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Estação de Crepes — Montagem ao Vivo",
+    "category": "crepe",
+    "badge": "Monte seu Crepe",
+    "file": "assets/videos/video-24-crepe-montagem-ao-vivo.mp4",
+    "thumb": "assets/videos/thumbs/thumb-24-crepe-montagem-ao-vivo.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Seleção Gourmet para Crepes Deguste",
+    "category": "crepe",
+    "badge": "Monte seu Crepe",
+    "file": "assets/videos/video-25-crepe-selecao-gourmet.mp4",
+    "thumb": "assets/videos/thumbs/thumb-25-crepe-selecao-gourmet.jpg"
+  },
+  {
+    "id": 26,
+    "title": "Crepe Artesanal no Prato Quente ao Vivo",
+    "category": "crepe",
+    "badge": "Monte seu Crepe",
+    "file": "assets/videos/video-26-crepe-artesanal-chapa-quente.mp4",
+    "thumb": "assets/videos/thumbs/thumb-26-crepe-artesanal-chapa-quente.jpg"
+  },
+  {
+    "id": 27,
+    "title": "Buffet de Crepes em Festa de Celebração",
+    "category": "crepe",
+    "badge": "Monte seu Crepe",
+    "file": "assets/videos/video-27-crepe-buffet-festa-celebracao.mp4",
+    "thumb": "assets/videos/thumbs/thumb-27-crepe-buffet-festa-celebracao.jpg"
+  },
+  {
+    "id": 28,
+    "title": "Variedade de Sabores da Deguste Crepes",
+    "category": "crepe",
+    "badge": "Monte seu Crepe",
+    "file": "assets/videos/video-28-crepe-variedade-sabores.mp4",
+    "thumb": "assets/videos/thumbs/thumb-28-crepe-variedade-sabores.jpg"
+  },
+  {
+    "id": 29,
+    "title": "Apresentação Deguste no Espaço Flamboyant",
+    "category": "institucional",
+    "badge": "Institucional",
+    "file": "assets/videos/video-29-apresentacao-espaco-flamboyant.mp4",
+    "thumb": "assets/videos/thumbs/thumb-29-apresentacao-espaco-flamboyant.jpg"
+  },
+  {
+    "id": 30,
+    "title": "Degustação do Moscow Mule por Convidada",
+    "category": "drinks",
+    "badge": "Depoimento & Reação",
+    "file": "assets/videos/video-30-degustacao-moscow-mule.mp4",
+    "thumb": "assets/videos/thumbs/thumb-30-degustacao-moscow-mule.jpg"
+  },
+  {
+    "id": 31,
+    "title": "Preparo dos Shots em Camadas — Shooting Day",
+    "category": "drinks",
+    "badge": "Bar & Drinks",
+    "file": "assets/videos/video-31-preparo-shots-camadas.mp4",
+    "thumb": "assets/videos/thumbs/thumb-31-preparo-shots-camadas.jpg"
+  },
+  {
+    "id": 32,
+    "title": "Shots Coloridos em Camadas com Efeito Visual",
+    "category": "drinks",
+    "badge": "Bar & Drinks",
+    "file": "assets/videos/video-32-shots-coloridos-shooting-day.mp4",
+    "thumb": "assets/videos/thumbs/thumb-32-shots-coloridos-shooting-day.jpg"
+  },
+  {
+    "id": 33,
+    "title": "Depoimento dos Noivos — Agradecimento Especial",
+    "category": "casamentos",
+    "badge": "Depoimento",
+    "file": "assets/videos/video-33-depoimento-dos-noivos.mp4",
+    "thumb": "assets/videos/thumbs/thumb-33-depoimento-dos-noivos.jpg"
+  },
+  {
+    "id": 34,
+    "title": "Aperol Spritz com Laranja — Deguste Drinks",
+    "category": "drinks",
+    "badge": "Bar & Drinks",
+    "file": "assets/videos/video-34-aperol-spritz-com-laranja.mp4",
+    "thumb": "assets/videos/thumbs/thumb-34-aperol-spritz-com-laranja.jpg"
+  },
+  {
+    "id": 35,
+    "title": "Espuma Artesanal de Gengibre no Moscow Mule",
+    "category": "drinks",
+    "badge": "Bar & Drinks",
+    "file": "assets/videos/video-35-espuma-gengibre-moscow-mule.mp4",
+    "thumb": "assets/videos/thumbs/thumb-35-espuma-gengibre-moscow-mule.jpg"
+  },
+  {
+    "id": 36,
+    "title": "Depoimento da Noiva — Experiência Inesquecível",
+    "category": "casamentos",
+    "badge": "Depoimento",
+    "file": "assets/videos/video-36-depoimento-da-noiva.mp4",
+    "thumb": "assets/videos/thumbs/thumb-36-depoimento-da-noiva.jpg"
+  },
+  {
+    "id": 37,
+    "title": "Mesa Posta de Salgados e Pães para Eventos",
+    "category": "mesas",
+    "badge": "Gastronomia",
+    "file": "assets/videos/video-37-mesa-posta-salgados-paes.mp4",
+    "thumb": "assets/videos/thumbs/thumb-37-mesa-posta-salgados-paes.jpg"
+  },
+  {
+    "id": 38,
+    "title": "Torre de Uvas, Morangos e Frutas Finas",
+    "category": "mesas",
+    "badge": "Gastronomia",
+    "file": "assets/videos/video-38-torre-uvas-morangos-frutas.mp4",
+    "thumb": "assets/videos/thumbs/thumb-38-torre-uvas-morangos-frutas.jpg"
+  },
+  {
+    "id": 39,
+    "title": "Gotas Naturais de Mel Escorrendo do Favo",
+    "category": "mesas",
+    "badge": "Experiência Única",
+    "file": "assets/videos/video-39-gotas-mel-escorrendo-favo.mp4",
+    "thumb": "assets/videos/thumbs/thumb-39-gotas-mel-escorrendo-favo.jpg"
+  },
+  {
+    "id": 40,
+    "title": "Mesa Completa com Favo de Mel e Frutas",
+    "category": "mesas",
+    "badge": "Experiência Única",
+    "file": "assets/videos/video-40-mesa-completa-favo-mel.mp4",
+    "thumb": "assets/videos/thumbs/thumb-40-mesa-completa-favo-mel.jpg"
+  },
+  {
+    "id": 41,
+    "title": "Mesa com Favo de Mel e Coquetéis Especiais",
+    "category": "mesas",
+    "badge": "Experiência Única",
+    "file": "assets/videos/video-41-favo-mel-coqueteis-especiais.mp4",
+    "thumb": "assets/videos/thumbs/thumb-41-favo-mel-coqueteis-especiais.jpg"
+  }
+]

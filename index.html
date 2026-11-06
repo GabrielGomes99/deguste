@@ -1,0 +1,729 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171711">
+  <meta name="description" content="Deguste: experiências especiais para casamentos, aniversários e celebrações. Mesas de boas-vindas, antes e depois do sim, drinks, barca de coco e muito mais. Solicite seu orçamento personalizado.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Deguste | Experiências para celebrar">
+  <meta property="og:description" content="Sua celebração merece uma recepção inesquecível. Conheça nossas experiências e solicite um orçamento.">
+  <meta property="og:image" content="assets/logo-deguste.png">
+  <title>Deguste — Experiências para celebrar</title>
+  <link rel="icon" type="image/webp" href="assets/logo-deguste.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/config.js"></script>
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="topline"><span>O extraordinário mora nos detalhes</span><span class="topline-star" aria-hidden="true">✦</span><span>CELEBRAÇÕES COM IDENTIDADE</span></div>
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a class="brand" href="#topo" aria-label="Deguste — página inicial">
+        <img src="assets/logo-deguste.webp" alt="Emblema dourado Deguste" width="59" height="59">
+        <span class="brand-copy"><strong>DEGUSTE</strong><small>EXPERIÊNCIAS & EVENTOS</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#experiencias">Experiências</a>
+        <a href="#sobre">Nossa essência</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#videos">Vídeos</a>
+        <a href="#duvidas">Dúvidas</a>
+      </nav>
+      <a class="btn btn-gold header-cta" href="#orcamento">Pedir orçamento <span class="btn-icon" aria-hidden="true"><svg class="whatsapp-icon" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg></span></a>
+      <button class="menu-button" type="button" aria-label="Abrir menu" aria-controls="mobile-nav" aria-expanded="false" id="menu-button"><span></span><span></span><span></span></button>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Navegação móvel" hidden>
+      <a href="#experiencias">Experiências</a><a href="#sobre">Nossa essência</a><a href="#galeria">Galeria</a><a href="#videos">Vídeos</a><a href="#duvidas">Dúvidas</a><a href="#orcamento" class="mobile-cta">Pedir orçamento <span class="btn-icon" aria-hidden="true"><svg class="whatsapp-icon" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg></span></a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow gold-text"><span class="small-line"></span> EVENTOS QUE SE TORNAM MEMÓRIAS</p>
+          <h1 id="hero-heading">A arte de<br><em>receber bem.</em></h1>
+          <p class="hero-lede">Há momentos que merecem ser saboreados. Criamos experiências para encantar seus convidados e transformar celebrações em lembranças inesquecíveis.</p>
+          <div class="hero-actions">
+            <a href="#orcamento" class="btn btn-gold btn-large">Criar meu orçamento <span class="btn-icon" aria-hidden="true"><svg class="whatsapp-icon" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg></span></a>
+            <a href="#experiencias" class="text-link">Explorar experiências <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-mini"><span class="mini-symbol" aria-hidden="true">✳</span><span>Casamentos <i>•</i> Aniversários <i>•</i> Eventos especiais</span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo photo-slot" data-photo="capa.jpg" data-label="Foto de capa" aria-label="Espaço reservado para a foto de capa">
+            <div class="photo-watermark"><span>DEGUSTE</span><small>momentos para celebrar</small></div>
+            <div class="photo-guide"><span class="photo-guide-icon" aria-hidden="true">＋</span><strong>Sua foto principal aqui</strong><span>assets/fotos/capa.jpg</span></div>
+          </div>
+          <div class="hero-seal" aria-hidden="true"><span>FEITO PARA</span><b>CELEBRAR</b><span>CADA DETALHE ✦</span></div>
+          <span class="hero-outline" aria-hidden="true"></span>
+        </div>
+      </div>
+      <div class="hero-index container"><span>01 / DEGUSTE</span><div class="scroll-line"></div><span>DESCUBRA NOSSAS EXPERIÊNCIAS</span></div>
+    </section>
+
+    <section class="intro-strip" aria-label="Nossa proposta">
+      <div class="container intro-strip-grid"><span>✦ &nbsp; Detalhes que surpreendem</span><span>✦ &nbsp; Celebrações com personalidade</span><span>✦ &nbsp; Receber é uma arte</span></div>
+    </section>
+
+    <section id="experiencias" class="section services-section" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-heading services-heading"><div><p class="eyebrow"><span class="small-line"></span> NOSSAS EXPERIÊNCIAS</p><h2 id="services-heading">Um toque especial<br>para <em>cada ocasião.</em></h2></div><p>Da chegada ao último brinde, cada momento pode se tornar especial. Escolha as experiências que combinam com a sua celebração.</p></div>
+        <div class="services-grid">
+          <article class="service-card" data-service="bar-drinks">
+            <div class="service-image photo-slot" data-photo="mesa-de-drinks.jpg" data-label="Bar de Drinks"><span class="service-number">01 / 06</span><div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>Bar de Drinks</strong><span>mesa-de-drinks.jpg</span></div></div>
+            <div class="service-body"><span class="service-tag">BAR & COQUETELARIA</span><h3>Bar de Drinks</h3><p>Drinks clássicos, autorais e personalizados preparados por bartenders profissionais para o seu evento.</p><button class="service-add" type="button" data-add-service="bar-drinks" aria-pressed="false">Adicionar ao orçamento <span aria-hidden="true">＋</span></button></div>
+          </article>
+          <article class="service-card" data-service="crepe-frances">
+            <div class="service-image photo-slot" data-photo="crepe-frances.jpg" data-label="Crepe Francês"><span class="service-number">02 / 06</span><div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>Crepe Francês</strong><span>crepe-frances.jpg</span></div></div>
+            <div class="service-body"><span class="service-tag">GASTRONOMIA AO VIVO</span><h3>Crepe Francês</h3><p>Crepes doces e salgados com ingredientes selecionados, preparados na hora diante dos convidados.</p><button class="service-add" type="button" data-add-service="crepe-frances" aria-pressed="false">Adicionar ao orçamento <span aria-hidden="true">＋</span></button></div>
+          </article>
+          <article class="service-card" data-service="massas-ao-vivo">
+            <div class="service-image photo-slot" data-photo="massas-ao-vivo.jpg" data-label="Massas ao Vivo (Macarrão)"><span class="service-number">03 / 06</span><div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>Massas ao Vivo</strong><span>massas-ao-vivo.jpg</span></div></div>
+            <div class="service-body"><span class="service-tag">BUFFET AO VIVO</span><h3>Massas ao Vivo (Macarrão)</h3><p>Massas artesanais com molhos especiais e combinações deliciosas, preparadas na hora do evento.</p><button class="service-add" type="button" data-add-service="massas-ao-vivo" aria-pressed="false">Adicionar ao orçamento <span aria-hidden="true">＋</span></button></div>
+          </article>
+          <article class="service-card" data-service="barca-coco">
+            <div class="service-image photo-slot" data-photo="barca-de-coco.jpg" data-label="Barca de Coco"><span class="service-number">04 / 06</span><div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>Barca de Coco</strong><span>barca-de-coco.jpg</span></div></div>
+            <div class="service-body"><span class="service-tag">RECEPÇÃO REFRESCANTE</span><h3>Barca de Coco</h3><p>Uma recepção refrescante e cheia de estilo com cocos naturais servidos na tradicional barca de madeira.</p><button class="service-add" type="button" data-add-service="barca-coco" aria-pressed="false">Adicionar ao orçamento <span aria-hidden="true">＋</span></button></div>
+          </article>
+          <article class="service-card" data-service="barca-shot">
+            <div class="service-image photo-slot" data-photo="barca-de-shot.jpg" data-label="Barca de Shot"><span class="service-number">05 / 06</span><div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>Barca de Shot</strong><span>barca-de-shot.jpg</span></div></div>
+            <div class="service-body"><span class="service-tag">ANIMAÇÃO & PISTA</span><h3>Barca de Shot</h3><p>Shots especiais e vibrantes servidos na barca iluminada para animar a pista de dança e os convidados.</p><button class="service-add" type="button" data-add-service="barca-shot" aria-pressed="false">Adicionar ao orçamento <span aria-hidden="true">＋</span></button></div>
+          </article>
+          <article class="service-card" data-service="coffee-break">
+            <div class="service-image photo-slot" data-photo="coffee-break.jpg" data-label="Coffee Break"><span class="service-number">06 / 06</span><div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>Coffee Break</strong><span>coffee-break.jpg</span></div></div>
+            <div class="service-body"><span class="service-tag">EVENTOS & RECEPÇÃO</span><h3>Coffee Break</h3><p>Serviço completo com opções doces e salgadas, pães artesanais, folhados e cafés para sua celebração.</p><button class="service-add" type="button" data-add-service="coffee-break" aria-pressed="false">Adicionar ao orçamento <span aria-hidden="true">＋</span></button></div>
+          </article></div>
+        <p class="services-note"><span aria-hidden="true">✧</span> Você pode selecionar mais de uma experiência para o mesmo evento.</p>
+      </div>
+    </section>
+
+    <section id="sobre" class="story-section" aria-labelledby="story-heading">
+      <div class="container story-grid"><div class="story-image-wrap"><div class="story-image photo-slot" data-photo="nossa-essencia.jpg" data-label="Foto da equipe ou montagem"><div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>O seu melhor registro</strong><span>nossa-essencia.jpg</span></div></div><div class="story-image-caption">A BELEZA ESTÁ NOS DETALHES <span aria-hidden="true">✦</span></div></div>
+        <div class="story-content"><p class="eyebrow"><span class="small-line"></span> NOSSA ESSÊNCIA</p><h2 id="story-heading">Mais do que servir.<br><em>Fazer sentir.</em></h2><p>Acreditamos que uma recepção bem pensada muda a atmosfera de qualquer celebração. O cuidado está na apresentação, na combinação de sabores e em cada detalhe que convida seus convidados a aproveitar o momento.</p><div class="story-features"><div><span class="feature-icon" aria-hidden="true">✺</span><div><h3>O seu evento, a sua essência</h3><p>Escolha as experiências que fazem sentido para a ocasião.</p></div></div><div><span class="feature-icon" aria-hidden="true">✳</span><div><h3>Um pedido feito sob medida</h3><p>Compartilhe os detalhes e solicite uma proposta personalizada.</p></div></div><div><span class="feature-icon" aria-hidden="true">✧</span><div><h3>Do primeiro oi ao último brinde</h3><p>Ideias especiais para diferentes momentos da sua festa.</p></div></div></div><a href="#orcamento" class="btn btn-dark">Vamos planejar seu evento <span class="btn-icon" aria-hidden="true"><svg class="whatsapp-icon" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg></span></a></div>
+      </div>
+    </section>
+
+    <section id="galeria" class="section gallery-section" aria-labelledby="gallery-heading"><div class="container"><div class="section-heading gallery-heading"><div><p class="eyebrow"><span class="small-line"></span> GALERIA DE MOMENTOS</p><h2 id="gallery-heading">Inspiração para o<br><em>seu grande dia.</em></h2></div><p>Um espaço reservado para mostrar os detalhes, composições e momentos reais da Deguste.</p></div>
+      <div class="gallery-filters" role="group" aria-label="Filtrar galeria"><button class="gallery-filter active" data-filter="todas" type="button" aria-pressed="true">Todas as fotos</button><button class="gallery-filter" data-filter="casamentos" type="button" aria-pressed="false">Casamentos</button><button class="gallery-filter" data-filter="drinks" type="button" aria-pressed="false">Drinks & Bar</button><button class="gallery-filter" data-filter="gastronomia" type="button" aria-pressed="false">Mesas & Gastronomia</button><button class="gallery-filter" data-filter="barca" type="button" aria-pressed="false">Barcas Deguste</button><button class="gallery-filter" data-filter="corporativo" type="button" aria-pressed="false">Corporativo</button></div>
+      <div class="gallery-grid" id="gallery-grid">
+        <div class="gallery-item photo-slot gallery-big" data-photo="galeria-01.jpg" data-label="Noivos na pista de dança com a Barca Deguste" data-category="casamentos">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>CASAMENTOS</strong><span>galeria-01.jpg</span></div>
+          <div class="gallery-label">CASAMENTOS <span>01</span></div>
+        </div>
+        <div class="gallery-item photo-slot" data-photo="galeria-02.jpg" data-label="Noiva celebrando o brinde com a Barca de Shots" data-category="casamentos">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>CASAMENTOS</strong><span>galeria-02.jpg</span></div>
+          <div class="gallery-label">CASAMENTOS <span>02</span></div>
+        </div>
+        <div class="gallery-item photo-slot" data-photo="galeria-03.jpg" data-label="Casamento Israel & Emily no gazebo iluminado" data-category="casamentos">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>CASAMENTOS</strong><span>galeria-03.jpg</span></div>
+          <div class="gallery-label">CASAMENTOS <span>03</span></div>
+        </div>
+        <div class="gallery-item photo-slot" data-photo="galeria-04.jpg" data-label="Estação de frutas vermelhas frescas e selecionadas" data-category="gastronomia">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>GASTRONOMIA</strong><span>galeria-04.jpg</span></div>
+          <div class="gallery-label">GASTRONOMIA <span>04</span></div>
+        </div>
+        <div class="gallery-item photo-slot" data-photo="galeria-05.jpg" data-label="Experiência sensorial com favo de mel natural" data-category="gastronomia">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>GASTRONOMIA</strong><span>galeria-05.jpg</span></div>
+          <div class="gallery-label">GASTRONOMIA <span>05</span></div>
+        </div>
+        <div class="gallery-item photo-slot gallery-wide" data-photo="galeria-06.jpg" data-label="Coquetelaria fina com drinks artesanais e guarnições" data-category="drinks">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>DRINKS & BAR</strong><span>galeria-06.jpg</span></div>
+          <div class="gallery-label">DRINKS & BAR <span>06</span></div>
+        </div>
+        <div class="gallery-item photo-slot" data-photo="galeria-07.jpg" data-label="Barca de coco no mirante com vista panorâmica" data-category="casamentos">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>CASAMENTOS</strong><span>galeria-07.jpg</span></div>
+          <div class="gallery-label">CASAMENTOS <span>07</span></div>
+        </div>
+        <div class="gallery-item photo-slot" data-photo="galeria-08.jpg" data-label="Equipe Deguste — Atendimento impecável em eventos" data-category="drinks">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>DRINKS & BAR</strong><span>galeria-08.jpg</span></div>
+          <div class="gallery-label">DRINKS & BAR <span>08</span></div>
+        </div>
+        <div class="gallery-item photo-slot" data-photo="galeria-09.jpg" data-label="Estação de crepes gourmet montados ao vivo" data-category="gastronomia">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>GASTRONOMIA</strong><span>galeria-09.jpg</span></div>
+          <div class="gallery-label">GASTRONOMIA <span>09</span></div>
+        </div>
+        <div class="gallery-item photo-slot" data-photo="galeria-10.jpg" data-label="Barca Deguste artesanal entalhada com cocos gelados" data-category="barca">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>BARCA DEGUSTE</strong><span>galeria-10.jpg</span></div>
+          <div class="gallery-label">BARCA DEGUSTE <span>10</span></div>
+        </div>
+        <div class="gallery-item photo-slot" data-photo="galeria-11.jpg" data-label="Barca de shots iluminada para a balada da festa" data-category="barca">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>BARCA DEGUSTE</strong><span>galeria-11.jpg</span></div>
+          <div class="gallery-label">BARCA DEGUSTE <span>11</span></div>
+        </div>
+        <div class="gallery-item photo-slot gallery-wide" data-photo="galeria-12.jpg" data-label="Moscow Mule autêntico servido na caneca de cobre" data-category="drinks">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>DRINKS & BAR</strong><span>galeria-12.jpg</span></div>
+          <div class="gallery-label">DRINKS & BAR <span>12</span></div>
+        </div>
+        <div class="gallery-item photo-slot" data-photo="galeria-13.jpg" data-label="Brinde de espumante com efeito névoa aromática" data-category="casamentos">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>CASAMENTOS</strong><span>galeria-13.jpg</span></div>
+          <div class="gallery-label">CASAMENTOS <span>13</span></div>
+        </div>
+        <div class="gallery-item photo-slot" data-photo="galeria-14.jpg" data-label="Mesa de antepastos, pães finos e favo de mel" data-category="gastronomia">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>GASTRONOMIA</strong><span>galeria-14.jpg</span></div>
+          <div class="gallery-label">GASTRONOMIA <span>14</span></div>
+        </div>
+        <div class="gallery-item photo-slot" data-photo="galeria-15.jpg" data-label="Recepção e coffee break para evento corporativo" data-category="corporativo">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>CORPORATIVO</strong><span>galeria-15.jpg</span></div>
+          <div class="gallery-label">CORPORATIVO <span>15</span></div>
+        </div>
+        <div class="gallery-item photo-slot" data-photo="galeria-16.jpg" data-label="Torre de drinks especiais com coquetéis coloridos" data-category="drinks">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>DRINKS & BAR</strong><span>galeria-16.jpg</span></div>
+          <div class="gallery-label">DRINKS & BAR <span>16</span></div>
+        </div>
+        <div class="gallery-item photo-slot" data-photo="galeria-17.jpg" data-label="Moscow Mule com raspas de limão e espuma aveludada" data-category="drinks">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>DRINKS & BAR</strong><span>galeria-17.jpg</span></div>
+          <div class="gallery-label">DRINKS & BAR <span>17</span></div>
+        </div>
+        <div class="gallery-item photo-slot" data-photo="galeria-18.jpg" data-label="Monte seu Crepe — Experiência personalizada" data-category="gastronomia">
+          <div class="photo-guide"><span class="photo-guide-icon">＋</span><strong>GASTRONOMIA</strong><span>galeria-18.jpg</span></div>
+          <div class="gallery-label">GASTRONOMIA <span>18</span></div>
+        </div>
+      </div>
+      <p class="gallery-hint"><p class="gallery-hint">Toque em uma foto para ampliar quando as imagens forem adicionadas.</p>
+      </div></section>
+
+    <section id="videos" class="section videos-section" aria-labelledby="videos-heading">
+      <div class="container">
+        <div class="section-heading videos-heading">
+          <div>
+            <p class="eyebrow"><span class="small-line"></span> DEGUSTE EM MOVIMENTO</p>
+            <h2 id="videos-heading">Momentos reais em<br><em>cada detalhe.</em></h2>
+          </div>
+          <p>Assista aos registros autênticos dos nossos eventos: a preparação dos coquetéis, o encanto da barca de coco, a degustação do favo de mel e depoimentos reais.</p>
+        </div>
+        <div class="video-filters" role="group" aria-label="Filtrar vídeos">
+          <button class="video-filter active" data-vfilter="todos" type="button" aria-pressed="true">Todos os vídeos (41)</button>
+          <button class="video-filter" data-vfilter="drinks" type="button" aria-pressed="false">Drinks & Bar</button>
+          <button class="video-filter" data-vfilter="mesas" type="button" aria-pressed="false">Favo de Mel & Mesas</button>
+          <button class="video-filter" data-vfilter="crepe" type="button" aria-pressed="false">Monte seu Crepe</button>
+          <button class="video-filter" data-vfilter="casamentos" type="button" aria-pressed="false">Casamentos & Depoimentos</button>
+          <button class="video-filter" data-vfilter="barca" type="button" aria-pressed="false">Barcas Deguste</button>
+        </div>
+        <div class="videos-grid" id="videos-grid">
+        <div class="video-card" data-video="assets/videos/video-29-apresentacao-espaco-flamboyant.mp4" data-title="Apresentação Deguste no Espaço Flamboyant" data-category="institucional" data-badge="Institucional" role="button" tabindex="0" aria-label="Assistir vídeo: Apresentação Deguste no Espaço Flamboyant">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-29-apresentacao-espaco-flamboyant.jpg');">
+            <span class="video-badge">Institucional</span>
+            <span class="video-duration">1:05</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Apresentação Deguste no Espaço Flamboyant</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card" data-video="assets/videos/video-33-depoimento-dos-noivos.mp4" data-title="Depoimento dos Noivos — Agradecimento Especial" data-category="casamentos" data-badge="Depoimento" role="button" tabindex="0" aria-label="Assistir vídeo: Depoimento dos Noivos — Agradecimento Especial">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-33-depoimento-dos-noivos.jpg');">
+            <span class="video-badge">Depoimento</span>
+            <span class="video-duration">0:31</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Depoimento dos Noivos — Agradecimento Especial</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card" data-video="assets/videos/video-14-experiencia-favo-mel-ao-vivo.mp4" data-title="Experiência do Favo de Mel ao Vivo" data-category="mesas" data-badge="Destaque" role="button" tabindex="0" aria-label="Assistir vídeo: Experiência do Favo de Mel ao Vivo">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-14-experiencia-favo-mel-ao-vivo.jpg');">
+            <span class="video-badge">Destaque</span>
+            <span class="video-duration">0:12</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Experiência do Favo de Mel ao Vivo</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card" data-video="assets/videos/video-35-espuma-gengibre-moscow-mule.mp4" data-title="Espuma Artesanal de Gengibre no Moscow Mule" data-category="drinks" data-badge="Bar & Drinks" role="button" tabindex="0" aria-label="Assistir vídeo: Espuma Artesanal de Gengibre no Moscow Mule">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-35-espuma-gengibre-moscow-mule.jpg');">
+            <span class="video-badge">Bar & Drinks</span>
+            <span class="video-duration">0:09</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Espuma Artesanal de Gengibre no Moscow Mule</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card" data-video="assets/videos/video-11-noivos-barca-shots-balada.mp4" data-title="Entrada da Barca de Shots com Noivos e Padrinhos" data-category="casamentos" data-badge="Casamentos" role="button" tabindex="0" aria-label="Assistir vídeo: Entrada da Barca de Shots com Noivos e Padrinhos">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-11-noivos-barca-shots-balada.jpg');">
+            <span class="video-badge">Casamentos</span>
+            <span class="video-duration">0:07</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Entrada da Barca de Shots com Noivos e Padrinhos</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card" data-video="assets/videos/video-31-preparo-shots-camadas.mp4" data-title="Preparo dos Shots em Camadas — Shooting Day" data-category="drinks" data-badge="Bar & Drinks" role="button" tabindex="0" aria-label="Assistir vídeo: Preparo dos Shots em Camadas — Shooting Day">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-31-preparo-shots-camadas.jpg');">
+            <span class="video-badge">Bar & Drinks</span>
+            <span class="video-duration">0:11</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Preparo dos Shots em Camadas — Shooting Day</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card" data-video="assets/videos/video-24-crepe-montagem-ao-vivo.mp4" data-title="Estação de Crepes — Montagem ao Vivo" data-category="crepe" data-badge="Monte seu Crepe" role="button" tabindex="0" aria-label="Assistir vídeo: Estação de Crepes — Montagem ao Vivo">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-24-crepe-montagem-ao-vivo.jpg');">
+            <span class="video-badge">Monte seu Crepe</span>
+            <span class="video-duration">0:08</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Estação de Crepes — Montagem ao Vivo</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card" data-video="assets/videos/video-30-degustacao-moscow-mule.mp4" data-title="Degustação do Moscow Mule por Convidada" data-category="drinks" data-badge="Depoimento & Reação" role="button" tabindex="0" aria-label="Assistir vídeo: Degustação do Moscow Mule por Convidada">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-30-degustacao-moscow-mule.jpg');">
+            <span class="video-badge">Depoimento & Reação</span>
+            <span class="video-duration">0:11</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Degustação do Moscow Mule por Convidada</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-36-depoimento-da-noiva.mp4" data-title="Depoimento da Noiva — Experiência Inesquecível" data-category="casamentos" data-badge="Depoimento" role="button" tabindex="0" aria-label="Assistir vídeo: Depoimento da Noiva — Experiência Inesquecível">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-36-depoimento-da-noiva.jpg');">
+            <span class="video-badge">Depoimento</span>
+            <span class="video-duration">0:13</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Depoimento da Noiva — Experiência Inesquecível</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-17-barca-coco-gelado-jardim.mp4" data-title="Barca de Coco Gelado no Jardim" data-category="barca" data-badge="Barca de Coco" role="button" tabindex="0" aria-label="Assistir vídeo: Barca de Coco Gelado no Jardim">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-17-barca-coco-gelado-jardim.jpg');">
+            <span class="video-badge">Barca de Coco</span>
+            <span class="video-duration">0:04</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Barca de Coco Gelado no Jardim</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-01-preparo-caipiroska-frutas.mp4" data-title="Preparo de Caipiroskas na Estação de Frutas" data-category="drinks" data-badge="Bar & Drinks" role="button" tabindex="0" aria-label="Assistir vídeo: Preparo de Caipiroskas na Estação de Frutas">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-01-preparo-caipiroska-frutas.jpg');">
+            <span class="video-badge">Bar & Drinks</span>
+            <span class="video-duration">0:07</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Preparo de Caipiroskas na Estação de Frutas</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-05-mesa-paes-queijos-charcutaria.mp4" data-title="Mesa de Pães Artesanais, Queijos e Charcutaria" data-category="mesas" data-badge="Mesa de Boas-Vindas" role="button" tabindex="0" aria-label="Assistir vídeo: Mesa de Pães Artesanais, Queijos e Charcutaria">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-05-mesa-paes-queijos-charcutaria.jpg');">
+            <span class="video-badge">Mesa de Boas-Vindas</span>
+            <span class="video-duration">0:45</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Mesa de Pães Artesanais, Queijos e Charcutaria</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-34-aperol-spritz-com-laranja.mp4" data-title="Aperol Spritz com Laranja — Deguste Drinks" data-category="drinks" data-badge="Bar & Drinks" role="button" tabindex="0" aria-label="Assistir vídeo: Aperol Spritz com Laranja — Deguste Drinks">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-34-aperol-spritz-com-laranja.jpg');">
+            <span class="video-badge">Bar & Drinks</span>
+            <span class="video-duration">0:21</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Aperol Spritz com Laranja — Deguste Drinks</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-39-gotas-mel-escorrendo-favo.mp4" data-title="Gotas Naturais de Mel Escorrendo do Favo" data-category="mesas" data-badge="Experiência Única" role="button" tabindex="0" aria-label="Assistir vídeo: Gotas Naturais de Mel Escorrendo do Favo">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-39-gotas-mel-escorrendo-favo.jpg');">
+            <span class="video-badge">Experiência Única</span>
+            <span class="video-duration">0:09</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Gotas Naturais de Mel Escorrendo do Favo</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-26-crepe-artesanal-chapa-quente.mp4" data-title="Crepe Artesanal no Prato Quente ao Vivo" data-category="crepe" data-badge="Monte seu Crepe" role="button" tabindex="0" aria-label="Assistir vídeo: Crepe Artesanal no Prato Quente ao Vivo">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-26-crepe-artesanal-chapa-quente.jpg');">
+            <span class="video-badge">Monte seu Crepe</span>
+            <span class="video-duration">0:09</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Crepe Artesanal no Prato Quente ao Vivo</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-02-bartender-coquetelaria.mp4" data-title="Bartender em Ação — Coquetelaria para Eventos" data-category="drinks" data-badge="Bar & Drinks" role="button" tabindex="0" aria-label="Assistir vídeo: Bartender em Ação — Coquetelaria para Eventos">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-02-bartender-coquetelaria.jpg');">
+            <span class="video-badge">Bar & Drinks</span>
+            <span class="video-duration">0:20</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Bartender em Ação — Coquetelaria para Eventos</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-07-buffet-gourmet-eventos.mp4" data-title="Buffet Gourmet para Eventos" data-category="mesas" data-badge="Gastronomia" role="button" tabindex="0" aria-label="Assistir vídeo: Buffet Gourmet para Eventos">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-07-buffet-gourmet-eventos.jpg');">
+            <span class="video-badge">Gastronomia</span>
+            <span class="video-duration">0:21</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Buffet Gourmet para Eventos</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-09-pista-danca-barca-shots.mp4" data-title="Pista de Dança com Barca de Shots Iluminada" data-category="casamentos" data-badge="Casamentos" role="button" tabindex="0" aria-label="Assistir vídeo: Pista de Dança com Barca de Shots Iluminada">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-09-pista-danca-barca-shots.jpg');">
+            <span class="video-badge">Casamentos</span>
+            <span class="video-duration">0:17</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Pista de Dança com Barca de Shots Iluminada</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-10-brinde-noivos-pista-danca.mp4" data-title="Brinde dos Noivos na Pista de Dança" data-category="casamentos" data-badge="Casamentos" role="button" tabindex="0" aria-label="Assistir vídeo: Brinde dos Noivos na Pista de Dança">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-10-brinde-noivos-pista-danca.jpg');">
+            <span class="video-badge">Casamentos</span>
+            <span class="video-duration">0:14</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Brinde dos Noivos na Pista de Dança</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-12-favo-mel-frutas-ar-livre.mp4" data-title="Favo de Mel e Frutas Frescas ao Ar Livre" data-category="mesas" data-badge="Experiência Única" role="button" tabindex="0" aria-label="Assistir vídeo: Favo de Mel e Frutas Frescas ao Ar Livre">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-12-favo-mel-frutas-ar-livre.jpg');">
+            <span class="video-badge">Experiência Única</span>
+            <span class="video-duration">0:04</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Favo de Mel e Frutas Frescas ao Ar Livre</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-13-mesa-frutas-favo-natural.mp4" data-title="Mesa de Frutas e Drinks com Favo Natural" data-category="mesas" data-badge="Experiência Única" role="button" tabindex="0" aria-label="Assistir vídeo: Mesa de Frutas e Drinks com Favo Natural">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-13-mesa-frutas-favo-natural.jpg');">
+            <span class="video-badge">Experiência Única</span>
+            <span class="video-duration">0:04</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Mesa de Frutas e Drinks com Favo Natural</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-15-coqueteis-recepcao-externa.mp4" data-title="Coquetéis e Frutas na Recepção Externa" data-category="drinks" data-badge="Bar & Drinks" role="button" tabindex="0" aria-label="Assistir vídeo: Coquetéis e Frutas na Recepção Externa">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-15-coqueteis-recepcao-externa.jpg');">
+            <span class="video-badge">Bar & Drinks</span>
+            <span class="video-duration">0:03</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Coquetéis e Frutas na Recepção Externa</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-16-bancada-frutas-caipiroskas.mp4" data-title="Bancada de Frutas Frescas para Caipiroskas" data-category="drinks" data-badge="Bar & Drinks" role="button" tabindex="0" aria-label="Assistir vídeo: Bancada de Frutas Frescas para Caipiroskas">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-16-bancada-frutas-caipiroskas.jpg');">
+            <span class="video-badge">Bar & Drinks</span>
+            <span class="video-duration">0:09</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Bancada de Frutas Frescas para Caipiroskas</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-18-crepe-ingredientes-frescos.mp4" data-title="Ingredientes Frescos da Estação de Crepes" data-category="crepe" data-badge="Monte seu Crepe" role="button" tabindex="0" aria-label="Assistir vídeo: Ingredientes Frescos da Estação de Crepes">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-18-crepe-ingredientes-frescos.jpg');">
+            <span class="video-badge">Monte seu Crepe</span>
+            <span class="video-duration">0:05</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Ingredientes Frescos da Estação de Crepes</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-19-crepe-frutas-recheios.mp4" data-title="Frutas e Recheios para Crepe Artesanal" data-category="crepe" data-badge="Monte seu Crepe" role="button" tabindex="0" aria-label="Assistir vídeo: Frutas e Recheios para Crepe Artesanal">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-19-crepe-frutas-recheios.jpg');">
+            <span class="video-badge">Monte seu Crepe</span>
+            <span class="video-duration">0:14</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Frutas e Recheios para Crepe Artesanal</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-20-crepe-morangos-doces.mp4" data-title="Morangos e Doces para Crepes Personalizados" data-category="crepe" data-badge="Monte seu Crepe" role="button" tabindex="0" aria-label="Assistir vídeo: Morangos e Doces para Crepes Personalizados">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-20-crepe-morangos-doces.jpg');">
+            <span class="video-badge">Monte seu Crepe</span>
+            <span class="video-duration">0:14</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Morangos e Doces para Crepes Personalizados</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-21-crepe-queijos-salgados.mp4" data-title="Queijos e Recheios Especiais para Crepe" data-category="crepe" data-badge="Monte seu Crepe" role="button" tabindex="0" aria-label="Assistir vídeo: Queijos e Recheios Especiais para Crepe">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-21-crepe-queijos-salgados.jpg');">
+            <span class="video-badge">Monte seu Crepe</span>
+            <span class="video-duration">0:07</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Queijos e Recheios Especiais para Crepe</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-22-crepe-variedade-ingredientes.mp4" data-title="Variedade de Ingredientes para Crepes" data-category="crepe" data-badge="Monte seu Crepe" role="button" tabindex="0" aria-label="Assistir vídeo: Variedade de Ingredientes para Crepes">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-22-crepe-variedade-ingredientes.jpg');">
+            <span class="video-badge">Monte seu Crepe</span>
+            <span class="video-duration">0:04</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Variedade de Ingredientes para Crepes</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-23-crepe-bancada-completa.mp4" data-title="Bancada Completa de Crepes Doces e Salgados" data-category="crepe" data-badge="Monte seu Crepe" role="button" tabindex="0" aria-label="Assistir vídeo: Bancada Completa de Crepes Doces e Salgados">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-23-crepe-bancada-completa.jpg');">
+            <span class="video-badge">Monte seu Crepe</span>
+            <span class="video-duration">0:06</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Bancada Completa de Crepes Doces e Salgados</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-25-crepe-selecao-gourmet.mp4" data-title="Seleção Gourmet para Crepes Deguste" data-category="crepe" data-badge="Monte seu Crepe" role="button" tabindex="0" aria-label="Assistir vídeo: Seleção Gourmet para Crepes Deguste">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-25-crepe-selecao-gourmet.jpg');">
+            <span class="video-badge">Monte seu Crepe</span>
+            <span class="video-duration">0:05</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Seleção Gourmet para Crepes Deguste</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-27-crepe-buffet-festa-celebracao.mp4" data-title="Buffet de Crepes em Festa de Celebração" data-category="crepe" data-badge="Monte seu Crepe" role="button" tabindex="0" aria-label="Assistir vídeo: Buffet de Crepes em Festa de Celebração">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-27-crepe-buffet-festa-celebracao.jpg');">
+            <span class="video-badge">Monte seu Crepe</span>
+            <span class="video-duration">0:24</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Buffet de Crepes em Festa de Celebração</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-28-crepe-variedade-sabores.mp4" data-title="Variedade de Sabores da Deguste Crepes" data-category="crepe" data-badge="Monte seu Crepe" role="button" tabindex="0" aria-label="Assistir vídeo: Variedade de Sabores da Deguste Crepes">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-28-crepe-variedade-sabores.jpg');">
+            <span class="video-badge">Monte seu Crepe</span>
+            <span class="video-duration">0:12</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Variedade de Sabores da Deguste Crepes</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-32-shots-coloridos-shooting-day.mp4" data-title="Shots Coloridos em Camadas com Efeito Visual" data-category="drinks" data-badge="Bar & Drinks" role="button" tabindex="0" aria-label="Assistir vídeo: Shots Coloridos em Camadas com Efeito Visual">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-32-shots-coloridos-shooting-day.jpg');">
+            <span class="video-badge">Bar & Drinks</span>
+            <span class="video-duration">0:11</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Shots Coloridos em Camadas com Efeito Visual</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-37-mesa-posta-salgados-paes.mp4" data-title="Mesa Posta de Salgados e Pães para Eventos" data-category="mesas" data-badge="Gastronomia" role="button" tabindex="0" aria-label="Assistir vídeo: Mesa Posta de Salgados e Pães para Eventos">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-37-mesa-posta-salgados-paes.jpg');">
+            <span class="video-badge">Gastronomia</span>
+            <span class="video-duration">0:06</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Mesa Posta de Salgados e Pães para Eventos</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-38-torre-uvas-morangos-frutas.mp4" data-title="Torre de Uvas, Morangos e Frutas Finas" data-category="mesas" data-badge="Gastronomia" role="button" tabindex="0" aria-label="Assistir vídeo: Torre de Uvas, Morangos e Frutas Finas">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-38-torre-uvas-morangos-frutas.jpg');">
+            <span class="video-badge">Gastronomia</span>
+            <span class="video-duration">0:11</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Torre de Uvas, Morangos e Frutas Finas</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-40-mesa-completa-favo-mel.mp4" data-title="Mesa Completa com Favo de Mel e Frutas" data-category="mesas" data-badge="Experiência Única" role="button" tabindex="0" aria-label="Assistir vídeo: Mesa Completa com Favo de Mel e Frutas">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-40-mesa-completa-favo-mel.jpg');">
+            <span class="video-badge">Experiência Única</span>
+            <span class="video-duration">0:03</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Mesa Completa com Favo de Mel e Frutas</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-41-favo-mel-coqueteis-especiais.mp4" data-title="Mesa com Favo de Mel e Coquetéis Especiais" data-category="mesas" data-badge="Experiência Única" role="button" tabindex="0" aria-label="Assistir vídeo: Mesa com Favo de Mel e Coquetéis Especiais">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-41-favo-mel-coqueteis-especiais.jpg');">
+            <span class="video-badge">Experiência Única</span>
+            <span class="video-duration">0:12</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Mesa com Favo de Mel e Coquetéis Especiais</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-03-montagem-coqueteis-artesanais.mp4" data-title="Montagem de Coquetéis Artesanais" data-category="drinks" data-badge="Bar & Drinks" role="button" tabindex="0" aria-label="Assistir vídeo: Montagem de Coquetéis Artesanais">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-03-montagem-coqueteis-artesanais.jpg');">
+            <span class="video-badge">Bar & Drinks</span>
+            <span class="video-duration">0:11</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Montagem de Coquetéis Artesanais</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-04-buffet-recepcao-gastronomica.mp4" data-title="Buffet de Recepção e Mesa Gastronômica" data-category="mesas" data-badge="Mesa de Boas-Vindas" role="button" tabindex="0" aria-label="Assistir vídeo: Buffet de Recepção e Mesa Gastronômica">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-04-buffet-recepcao-gastronomica.jpg');">
+            <span class="video-badge">Mesa de Boas-Vindas</span>
+            <span class="video-duration">0:18</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Buffet de Recepção e Mesa Gastronômica</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-06-mesa-frios-antepastos.mp4" data-title="Mesa de Frios e Antepastos Selecionados" data-category="mesas" data-badge="Gastronomia" role="button" tabindex="0" aria-label="Assistir vídeo: Mesa de Frios e Antepastos Selecionados">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-06-mesa-frios-antepastos.jpg');">
+            <span class="video-badge">Gastronomia</span>
+            <span class="video-duration">0:14</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Mesa de Frios e Antepastos Selecionados</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        <div class="video-card video-extra is-collapsed" data-video="assets/videos/video-08-detalhes-recepcao-gastronomica.mp4" data-title="Detalhes da Recepção Gastronômica" data-category="mesas" data-badge="Gastronomia" role="button" tabindex="0" aria-label="Assistir vídeo: Detalhes da Recepção Gastronômica">
+          <div class="video-card-thumb" style="background-image: url('assets/videos/thumbs/thumb-08-detalhes-recepcao-gastronomica.jpg');">
+            <span class="video-badge">Gastronomia</span>
+            <span class="video-duration">0:14</span>
+            <div class="video-play-btn" aria-hidden="true"><span class="play-arrow">▶</span></div>
+            <div class="video-card-info">
+              <h4>Detalhes da Recepção Gastronômica</h4>
+              <small class="video-action-hint">Toque para reproduzir ↗</small>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="videos-actions">
+          <button type="button" id="toggle-more-videos" class="btn btn-gold" aria-expanded="false">
+            <span>Ver todos os 41 vídeos</span> <span class="arrow-down" aria-hidden="true">↓</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-intro"><div class="container quote-intro-inner"><div><p class="eyebrow gold-text">✦ &nbsp; CADA DETALHE IMPORTA</p><h2>O próximo momento<br><em>inesquecível pode ser o seu.</em></h2></div><a href="#orcamento" class="btn btn-gold btn-large">Quero um orçamento <span class="btn-icon" aria-hidden="true"><svg class="whatsapp-icon" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg></span></a></div></section>
+
+    <section class="section quote-section" id="orcamento" aria-labelledby="quote-heading"><div class="container"><div class="section-heading centered"><p class="eyebrow"><span class="small-line"></span> VAMOS PLANEJAR JUNTOS <span class="small-line"></span></p><h2 id="quote-heading">Conte-nos sobre <em>seu evento.</em></h2><p>Preencha os detalhes e monte sua solicitação de orçamento personalizado. Sem valores automáticos: nossa proposta será preparada de acordo com o que você precisa.</p></div>
+      <div class="quote-layout">
+        <form id="quote-form" class="quote-form" novalidate>
+          <div class="form-section-header"><span class="form-step">01</span><div><h3>Qual é a ocasião?</h3><p>Comece contando o que será celebrado.</p></div></div>
+          <div class="field-group"><label class="form-label" for="event-type">Tipo de evento <span>*</span></label><select id="event-type" name="tipo_evento" required><option value="">Selecione uma opção</option><option>Casamento</option><option>15 Anos</option><option>Aniversário</option><option>Evento Corporativo</option><option>Formatura</option><option>Confraternização</option><option>Noivado</option><option>Chá de bebê / revelação</option><option>Outro evento especial</option></select><span class="field-error" id="error-event-type" role="alert"></span></div>
+          <div class="field-row"><div class="field-group"><label class="form-label" for="event-date">Data prevista</label><input type="date" id="event-date" name="data_evento"><span class="field-hint">Pode deixar em branco se ainda não souber.</span></div><div class="field-group"><label class="form-label" for="guests">Número aproximado de convidados <span>*</span></label><input id="guests" name="convidados" type="number" min="1" max="100000" placeholder="Ex.: 120" inputmode="numeric" required><span class="field-error" id="error-guests" role="alert"></span></div></div>
+          <div class="field-group"><label class="form-label" for="event-location">Cidade e local do evento <span>*</span></label><input id="event-location" name="local_evento" type="text" placeholder="Ex.: Brasília/DF — espaço de eventos" maxlength="160" required><span class="field-error" id="error-event-location" role="alert"></span></div>
+          <div class="form-divider"></div>
+          <div class="form-section-header"><span class="form-step">02</span><div><h3>Quais experiências deseja?</h3><p>Selecione uma ou várias opções.</p></div></div>
+          <div id="service-options" class="service-options" role="group" aria-label="Experiências para o orçamento">
+            <label class="service-option"><input type="checkbox" name="servicos" value="bar-drinks"><span class="option-check" aria-hidden="true">✓</span><span>Bar de Drinks</span></label>
+            <label class="service-option"><input type="checkbox" name="servicos" value="crepe-frances"><span class="option-check" aria-hidden="true">✓</span><span>Crepe Francês</span></label>
+            <label class="service-option"><input type="checkbox" name="servicos" value="massas-ao-vivo"><span class="option-check" aria-hidden="true">✓</span><span>Massas ao Vivo (Macarrão)</span></label>
+            <label class="service-option"><input type="checkbox" name="servicos" value="barca-coco"><span class="option-check" aria-hidden="true">✓</span><span>Barca de Coco</span></label>
+            <label class="service-option"><input type="checkbox" name="servicos" value="barca-shot"><span class="option-check" aria-hidden="true">✓</span><span>Barca de Shot</span></label>
+            <label class="service-option"><input type="checkbox" name="servicos" value="coffee-break"><span class="option-check" aria-hidden="true">✓</span><span>Coffee Break</span></label>
+            <label class="service-option"><input type="checkbox" name="servicos" value="personalizado"><span class="option-check" aria-hidden="true">✓</span><span>Outra experiência personalizada</span></label></div><span class="field-error" id="error-services" role="alert"></span>
+          <div class="field-group space-top"><label class="form-label" for="details">Algum detalhe ou pedido especial? <span class="optional">Opcional</span></label><textarea id="details" name="detalhes" rows="4" maxlength="1200" placeholder="Conte sobre o estilo do evento, horário, decoração, preferências ou dúvidas..."></textarea></div>
+          <div class="form-divider"></div>
+          <div class="form-section-header"><span class="form-step">03</span><div><h3>Como podemos falar com você?</h3><p>Para responder à sua solicitação.</p></div></div>
+          <div class="field-row"><div class="field-group"><label class="form-label" for="customer-name">Seu nome <span>*</span></label><input id="customer-name" name="nome" type="text" autocomplete="name" maxlength="90" placeholder="Como podemos te chamar?" required><span class="field-error" id="error-customer-name" role="alert"></span></div><div class="field-group"><label class="form-label" for="customer-phone">WhatsApp com DDD <span>*</span></label><input id="customer-phone" name="whatsapp" type="tel" autocomplete="tel" inputmode="tel" placeholder="(61) 99999-9999" maxlength="22" required><span class="field-error" id="error-customer-phone" role="alert"></span></div></div>
+          <label class="consent-row"><input type="checkbox" id="consent" required><span>Concordo em compartilhar esses dados com a Deguste para receber uma resposta sobre meu orçamento pelo WhatsApp.</span></label><span class="field-error" id="error-consent" role="alert"></span>
+          <button type="submit" class="btn btn-gold submit-btn">Preparar mensagem de orçamento <span class="btn-icon" aria-hidden="true"><svg class="whatsapp-icon" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg></span></button><p class="form-footnote">O formulário não efetua pagamentos e não gera uma reserva automática.</p>
+        </form>
+        <aside class="quote-aside" aria-label="Resumo do orçamento"><div class="quote-summary"><div class="summary-top"><span class="summary-kicker">SEU EVENTO, SUA HISTÓRIA</span><span class="summary-icon" aria-hidden="true">✦</span></div><h3>O seu pedido,<br><em>do seu jeito.</em></h3><p>Veja um resumo das suas escolhas enquanto preenche.</p><div class="summary-divider"></div><div class="summary-row"><span>OCASIÃO</span><strong id="summary-event">A definir</strong></div><div class="summary-row"><span>DATA</span><strong id="summary-date">A definir</strong></div><div class="summary-row"><span>CONVIDADOS</span><strong id="summary-guests">A definir</strong></div><div class="summary-row"><span>LOCAL</span><strong id="summary-location">A definir</strong></div><div class="summary-divider"></div><h4>EXPERIÊNCIAS SELECIONADAS <span id="summary-count">0</span></h4><div class="summary-services" id="summary-services"><p>Escolha uma experiência para começar a montar seu pedido.</p></div><div class="summary-bottom">✳ &nbsp; Orçamento personalizado, sem compromisso.</div></div><div class="aside-note"><span aria-hidden="true">✧</span><p>Você não precisa decidir tudo agora. Conte o que já sabe e conversamos sobre o restante.</p></div></aside>
+      </div>
+      </div></section>
+
+    <section id="duvidas" class="section faq-section" aria-labelledby="faq-heading"><div class="container faq-layout"><div class="faq-left"><p class="eyebrow"><span class="small-line"></span> DÚVIDAS FREQUENTES</p><h2 id="faq-heading">Quer saber <em>mais?</em></h2><p>Algumas respostas para facilitar o planejamento da sua celebração.</p></div><div class="faq-list"><details><summary>Posso escolher mais de um serviço? <span class="faq-plus" aria-hidden="true">＋</span></summary><p>Sim. Selecione todas as experiências que deseja na solicitação de orçamento e descreva suas preferências.</p></details><details><summary>Preciso saber a data exata do evento? <span class="faq-plus" aria-hidden="true">＋</span></summary><p>Não. Você pode deixar a data em branco e informar que ainda está definindo. A confirmação de disponibilidade é feita no contato.</p></details><details><summary>O site mostra preços fechados? <span class="faq-plus" aria-hidden="true">＋</span></summary><p>Não. Os valores dependem das experiências escolhidas, quantidade de convidados, local e necessidades do evento. Você solicita uma proposta personalizada.</p></details><details><summary>Como funciona o pedido de orçamento? <span class="faq-plus" aria-hidden="true">＋</span></summary><p>Preencha os dados, selecione os serviços e prepare sua mensagem. Depois é só enviá-la pelo WhatsApp disponibilizado pela Deguste.</p></details></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container"><div class="footer-main"><div class="footer-brand"><img src="assets/logo-deguste.webp" alt="Deguste" width="120" height="120"><div><strong>DEGUSTE</strong><span>EXPERIÊNCIAS & EVENTOS</span></div><p>Receber bem é o primeiro passo para celebrar momentos que ficam para sempre.</p></div><div class="footer-links"><h3>EXPLORE</h3><a href="#experiencias">Nossas experiências</a><a href="#sobre">Nossa essência</a><a href="#galeria">Galeria</a><a href="#videos">Vídeos e Reels</a><a href="#orcamento">Solicitar orçamento</a></div><div class="footer-links"><h3>CONTATO</h3><a id="footer-whatsapp" href="#orcamento">Solicitar pelo WhatsApp <span class="btn-icon" aria-hidden="true"><svg class="whatsapp-icon" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg></span></a><a id="footer-instagram" href="#" hidden target="_blank" rel="noopener noreferrer">Instagram ↗</a><a id="footer-email" href="#" hidden>Enviar e-mail ↗</a><span id="footer-region" hidden></span></div></div><div class="footer-bottom"><span>© <span id="year"></span> Deguste. Todos os direitos reservados.</span><span>FEITO PARA CELEBRAR ✦</span><a href="#topo">Voltar ao topo ↑</a></div></div></footer>
+
+  <div class="modal-backdrop" id="quote-modal" hidden><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1"><button class="modal-close" type="button" id="modal-close" aria-label="Fechar janela">×</button><div class="modal-symbol" aria-hidden="true">✦</div><p class="eyebrow">MENSAGEM PRONTA</p><h2 id="modal-title">Seu pedido está <em>pronto.</em></h2><p id="modal-info">Confira sua solicitação e envie pelo WhatsApp.</p><label for="message-preview" class="form-label">Prévia da mensagem</label><textarea id="message-preview" class="message-preview" rows="10" readonly></textarea><div class="modal-actions"><button type="button" class="btn btn-dark" id="copy-message">Copiar mensagem <span aria-hidden="true">⧉</span></button><a class="btn btn-gold" id="send-whatsapp" href="#" target="_blank" rel="noopener noreferrer" hidden>Enviar pelo WhatsApp <span class="btn-icon" aria-hidden="true"><svg class="whatsapp-icon" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg></span></a></div><p id="modal-notice" class="modal-notice" role="status"></p></div></div>
+    <div class="video-modal-backdrop" id="video-modal" hidden>
+    <div class="video-modal" role="dialog" aria-modal="true" aria-labelledby="video-modal-title" tabindex="-1">
+      <button class="modal-close" type="button" id="video-modal-close" aria-label="Fechar vídeo">×</button>
+      <div class="video-container">
+        <video id="video-player" controls playsinline></video>
+      </div>
+      <div class="video-modal-details">
+        <span class="video-badge-pill" id="video-modal-badge">Deguste</span>
+        <h3 id="video-modal-title">Vídeo</h3>
+      </div>
+    </div>
+  </div>
+  <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Visualizar foto">
+    <button id="lightbox-close" class="lightbox-close" type="button" aria-label="Fechar foto">×</button>
+    <button id="lightbox-prev" class="lightbox-nav lightbox-prev" type="button" aria-label="Foto anterior">‹</button>
+    <div class="lightbox-media-wrap">
+      <img id="lightbox-image" alt="Foto ampliada">
+      <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+    <button id="lightbox-next" class="lightbox-nav lightbox-next" type="button" aria-label="Próxima foto">›</button>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

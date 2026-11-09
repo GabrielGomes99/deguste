@@ -29,7 +29,7 @@
     photo.onload = () => {
       slot.style.backgroundImage = `url("${url}")`;
       slot.classList.add('has-photo');
-      slot.setAttribute('aria-label', slot.dataset.label || 'Foto da Deguste');
+      slot.setAttribute('aria-label', slot.dataset.label || 'Foto da Degust');
       if (slot.classList.contains('gallery-item')) {
         slot.tabIndex = 0;
         slot.role = 'button';
@@ -329,7 +329,7 @@
     const services = selectedServices().map((id) => `• ${SERVICE_LABELS[id]}`).join('\n');
     const details = $('#details').value.trim();
     const lines = [
-      'Olá, Deguste! Gostaria de solicitar um orçamento para o meu evento. ✨', '',
+      'Olá, Degust! Gostaria de solicitar um orçamento para o meu evento. ✨', '',
       '*DADOS DO EVENTO*',
       `• Ocasião: ${$('#event-type').value}`,
       `• Data: ${prettyDate}`,
